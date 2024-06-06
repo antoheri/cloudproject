@@ -1,0 +1,192 @@
+2024-05-06 12:17:20,398 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2024-05-06 12:17:26,421 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2024-05-06 12:17:26,440 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2024-05-06 12:17:26,690 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) starting
+2024-05-06 12:17:26,693 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\\rootJakartaEE\\rootJakartaEE\\tools\\wildfly-27.0.0.Final\\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17
+	java.io.tmpdir = C:\Users\theof\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\PuTTY\;C:\Program Files\GitHub CLI\;C:\Program Files (x86)\ZeroTier\One\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.2\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\theof\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\theof\AppData\Local\Programs\Python\Python311\;C:\Users\theof\AppData\Local\Microsoft\WindowsApps;C:\Users\theof\AppData\Local\JetBrains\Toolbox\scripts;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\bin;C:\Users\theof\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\theof\AppData\Roaming\npm;C:\Users\theof\.dotnet\tools;C:\Users\theof\AppData\Local\Programs\Azure Data Studio\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 17.0.7+8-LTS-224
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.7
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.7+8-LTS-224
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final
+	jboss.host.name = laptop-1hge8u0a
+	jboss.modules.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = laptop-1hge8u0a
+	jboss.qualified.host.name = laptop-1hge8u0a
+	jboss.server.base.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone
+	jboss.server.config.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\log
+	jboss.server.name = laptop-1hge8u0a
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\\rootJakartaEE\\rootJakartaEE\\tools\\wildfly-27.0.0.Final\\standalone\\configuration/logging.properties
+	module.path = C:\\rootJakartaEE\\rootJakartaEE\\tools\\wildfly-27.0.0.Final\\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\\rootJakartaEE\\rootJakartaEE\\tools\\wildfly-27.0.0.Final\\standalone\\log\\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\\rootJakartaEE\\rootJakartaEE\\tools\\wildfly-27.0.0.Final\\jboss-modules.jar -mp C:\\rootJakartaEE\\rootJakartaEE\\tools\\wildfly-27.0.0.Final\\modules org.jboss.as.standalone -Djboss.home.dir=C:\\rootJakartaEE\\rootJakartaEE\\tools\\wildfly-27.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = CH
+	user.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\bin
+	user.home = C:\Users\theof
+	user.language = fr
+	user.name = theof
+	user.script = 
+	user.timezone = Europe/Zurich
+	user.variant = 
+2024-05-06 12:17:26,701 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\\rootJakartaEE\\rootJakartaEE\\tools\\wildfly-27.0.0.Final\\standalone\\log\\server.log -Dlogging.configuration=file:C:\\rootJakartaEE\\rootJakartaEE\\tools\\wildfly-27.0.0.Final\\standalone\\configuration/logging.properties 
+2024-05-06 12:17:29,513 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2024-05-06 12:17:32,951 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 4) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2024-05-06 12:17:32,952 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 4) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2024-05-06 12:17:34,269 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 14) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2024-05-06 12:17:34,953 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2024-05-06 12:17:34,986 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.8.Final
+2024-05-06 12:17:34,998 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.8.Final
+2024-05-06 12:17:35,067 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2024-05-06 12:17:35,081 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2024-05-06 12:17:35,087 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2024-05-06 12:17:35,093 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2024-05-06 12:17:35,100 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2024-05-06 12:17:35,101 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2024-05-06 12:17:35,127 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2024-05-06 12:17:35,135 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2024-05-06 12:17:35,139 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2024-05-06 12:17:35,176 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2024-05-06 12:17:35,185 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2024-05-06 12:17:35,290 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2024-05-06 12:17:35,408 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.3.0.Final starting
+2024-05-06 12:17:35,521 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2024-05-06 12:17:35,524 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2024-05-06 12:17:35,541 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2024-05-06 12:17:35,591 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.hsqldb.jdbcDriver (version 2.7)
+2024-05-06 12:17:35,690 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2024-05-06 12:17:35,690 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2024-05-06 12:17:35,691 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = hsqldb
+2024-05-06 12:17:35,733 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY00023: KeyStore file 'C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2024-05-06 12:17:35,781 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2024-05-06 12:17:35,905 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2024-05-06 12:17:36,570 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 32 IO threads with 256 max task threads based on your 16 available processors
+2024-05-06 12:17:36,579 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 64 (per class), which is derived from the number of CPUs on this host.
+2024-05-06 12:17:36,579 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 256 (per class), which is derived from thread worker pool sizing.
+2024-05-06 12:17:36,694 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.26.Final
+2024-05-06 12:17:36,777 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2024-05-06 12:17:36,781 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) Queuing requests.
+2024-05-06 12:17:36,785 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2024-05-06 12:17:36,874 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2024-05-06 12:17:36,877 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2024-05-06 12:17:37,069 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2024-05-06 12:17:37,269 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/labsDS]
+2024-05-06 12:17:37,269 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2024-05-06 12:17:43,179 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war")
+2024-05-06 12:17:43,179 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2024-05-06 12:17:43,211 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2024-05-06 12:17:43,236 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\deployments
+2024-05-06 12:17:45,188 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-3) 
+2024-05-06 12:17:47,957 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war
+2024-05-06 12:17:49,761 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 8.0.0.Final
+2024-05-06 12:17:49,957 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: '/TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT' for server 'default-server'
+2024-05-06 12:17:50,134 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'BankBean' in deployment unit 'deployment "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:app/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:module/BankBean!ch.hevs.bankservice.Bank
+	java:global/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:app/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:module/BankBean
+
+2024-05-06 12:17:50,290 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-2) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2024-05-06 12:17:50,311 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2024-05-06 12:17:50,316 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=LAPTOP-1HGE8U0A, jaeger.version=Java-1.6.0, ip=192.168.1.211}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2024-05-06 12:17:50,626 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 5.1.0 (Final)
+2024-05-06 12:17:52,105 WARN  [org.jboss.weld.Validator] (MSC service thread 1-1) WELD-001471: Interceptor method init defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.init(TransferBean.java:0)
+  StackTrace
+2024-05-06 12:17:52,234 WARN  [org.jboss.weld.Validator] (MSC service thread 1-4) WELD-001471: Interceptor method init defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.init(TransferBean.java:0)
+  StackTrace
+2024-05-06 12:17:52,548 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 84) Initialisation de Mojarra 4.0.0.SP01 pour le contexte «/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT»
+2024-05-06 12:17:53,525 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0021: Registered web context: '/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT' for server 'default-server'
+2024-05-06 12:17:54,270 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war")
+2024-05-06 12:17:54,272 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2024-05-06 12:17:54,482 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-05-06 12:17:54,488 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) started in 44402ms - Started 515 of 765 services (366 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-05-06 12:17:54,495 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-05-06 12:17:54,495 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2024-05-06 12:18:47,037 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\data\content\51\07ae618e8ea85d53c3165016bd420e7e64930e\content
+2024-05-06 12:18:47,060 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0022: Unregistered web context: '/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT' from server 'default-server'
+2024-05-06 12:18:47,166 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war (runtime-name: TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war) in 122ms
+2024-05-06 12:18:47,178 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war")
+2024-05-06 12:18:47,857 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war
+2024-05-06 12:18:47,923 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'BankBean' in deployment unit 'deployment "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:app/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:module/BankBean!ch.hevs.bankservice.Bank
+	java:global/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:app/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:module/BankBean
+
+2024-05-06 12:18:47,995 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-5) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2024-05-06 12:18:47,997 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2024-05-06 12:18:47,997 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=LAPTOP-1HGE8U0A, jaeger.version=Java-1.6.0, ip=192.168.1.211}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2024-05-06 12:18:48,361 WARN  [org.jboss.weld.Validator] (MSC service thread 1-2) WELD-001471: Interceptor method init defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.init(TransferBean.java:0)
+  StackTrace
+2024-05-06 12:18:48,393 WARN  [org.jboss.weld.Validator] (MSC service thread 1-3) WELD-001471: Interceptor method init defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.init(TransferBean.java:0)
+  StackTrace
+2024-05-06 12:18:48,422 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 90) Initialisation de Mojarra 4.0.0.SP01 pour le contexte «/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT»
+2024-05-06 12:18:48,541 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: '/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT' for server 'default-server'
+2024-05-06 12:18:48,628 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war" with deployment "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war"
+2024-05-06 12:18:48,637 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\data\content\5a\0fef1f025f9ace0d78fd7310436ace1875176d\content
+2024-05-06 12:19:58,766 INFO  [stdout] (default task-1) Table COMPTE before the transfer :
+2024-05-06 12:19:58,786 INFO  [stdout] (default task-1) ID: 1,  NUMERO: 1001,  SOLDE: 20000,  FK_CLIENT: 2,  DESCRIPTION: Compte Courant
+2024-05-06 12:19:58,787 INFO  [stdout] (default task-1) ID: 2,  NUMERO: 1002,  SOLDE: 30000,  FK_CLIENT: 3,  DESCRIPTION: Compte Courant
+2024-05-06 12:19:58,788 INFO  [stdout] (default task-1) ID: 3,  NUMERO: 1003,  SOLDE: 1000,  FK_CLIENT: 2,  DESCRIPTION: livret A
+2024-05-06 12:19:58,789 INFO  [stdout] (default task-1) ID: 5,  NUMERO: 1000,  SOLDE: 10000,  FK_CLIENT: 1,  DESCRIPTION: Compte Courant

@@ -1,0 +1,9 @@
+2024-04-16 11:28:33,864 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-3) 
+2024-04-16 11:28:34,089 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-04-16 11:28:34,091 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) started in 14134ms - Started 298 of 571 services (358 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-04-16 11:28:34,094 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-04-16 11:28:34,095 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2024-04-16 11:29:15,447 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\data\content\84\4874beebd38660522c279e9a0f96d47fbfc968\content
+2024-04-16 11:29:15,471 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2024-04-16 11:29:17,292 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0021: Registered web context: '/TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT' for server 'default-server'
+2024-04-16 11:29:17,325 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="/WEB-INF/templates/BasicTemplate.xhtml">
+    <ui:define name="content">
+
+        <h:outputText value="Welcome back, #{transferBean.getTeacherFirstname()}" style="font-weight: bold;font-size:1.8em;text-align: center; display: block;"/><br></br>
+        <h:outputText value="Your are responsible of the following modules:  " style="font-style:italic;text-align: center; display: block;"/><br></br>
+        <div style="text-align: center;">
+            <ui:repeat value="#{transferBean.teacherModules}" var="entry">
+                <h:outputText value="#{entry.title}" style="font-weight: bold;"/>
+                <h:outputText value=" Start date: #{entry.startDate}, End date: #{entry.endDate}"/>
+            </ui:repeat><br></br><br></br>
+        </div>
+
+        <h:outputText value="Add a new mark for a student: " style="font-size:1.5em;"/>
+        <br></br><br></br>
+        <h:form>
+            <h:selectOneMenu value="#{transferBean.selectedSubjectName}" valueChangeListener="#{transferBean.updateSelectedSubject}" onchange="submit()" style="margin-right: 10px; border-radius: 5px;height:30px;border: 2px solid darkslategray;" >
+                <f:selectItem itemLabel="Select a subject" noSelectionOption="true" disabled="true" />
+                <f:selectItems value="#{transferBean.teacherSubjects}" var="subject" itemValue="#{subject.name}" itemLabel="#{subject.name}" />
+            </h:selectOneMenu>
+            <h:selectOneMenu value="#{transferBean.selectedStudentFirstname}" valueChangeListener="#{transferBean.updateSelectedStudent}" onchange="submit()" style="margin-right: 10px; border-radius: 5px;height:30px;border: 2px solid darkslategray;">
+                <f:selectItem itemLabel="Select a student" noSelectionOption="true" disabled="true" />
+                <f:selectItems value="#{transferBean.allStudents}" var="student" itemValue="#{student.firstname}" itemLabel="#{student.firstname}" />
+            </h:selectOneMenu>
+            <h:outputText value="Mark: "></h:outputText>
+            <h:inputText value="#{transferBean.selectedMark}" maxlength="6" style="width: 40px;margin-right: 10px;border-radius: 5px;height:25px;border: 2px solid darkslategray;"></h:inputText>
+
+            <h:outputText value="Weight: "></h:outputText>
+            <h:inputText value="#{transferBean.selectedWeight}" maxlength="6" style="width: 40px;margin-right: 10px;border-radius: 5px;height:25px;border: 2px solid darkslategray;"></h:inputText>
+            <h:commandButton value="Add a new mark" action="#{transferBean.performPostMark}" style="color:white;margin-right: 10px;border-radius: 5px;height:30px;border: none;background-color: darkslategrey"></h:commandButton>
+        </h:form>
+        <div style="color:darkred;font-size:1.5em; margin-right:100px;">
+            <h:outputText value="#{transferBean.addMarkErrorMessage}" rendered="#{transferBean.addMarkResult == false}" />
+            <h:outputText value="#{transferBean.addMarkSuccessMessage}" style="color:forestgreen;" rendered="#{transferBean.addMarkResult == true}" />
+        </div>
+        <br></br>
+    </ui:define>
+</ui:composition>
+</html>

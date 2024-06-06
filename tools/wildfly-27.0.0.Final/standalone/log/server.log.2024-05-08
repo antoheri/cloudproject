@@ -1,0 +1,368 @@
+2024-05-08 09:56:32,258 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2024-05-08 09:56:36,328 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2024-05-08 09:56:36,344 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2024-05-08 09:56:36,544 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) starting
+2024-05-08 09:56:36,550 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Program Files\Java\jdk-11.0.2
+	java.io.tmpdir = C:\Users\theof\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Users/theof/sdk/bin/server;C:/Users/theof/sdk/bin;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\PuTTY\;C:\Program Files\GitHub CLI\;C:\Program Files (x86)\ZeroTier\One\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.2\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\theof\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\theof\AppData\Local\Programs\Python\Python311\;C:\Users\theof\AppData\Local\Microsoft\WindowsApps;C:\Users\theof\AppData\Local\JetBrains\Toolbox\scripts;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.1\bin;C:\Users\theof\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\theof\AppData\Roaming\npm;C:\Users\theof\.dotnet\tools;C:\Users\theof\AppData\Local\Programs\Azure Data Studio\bin;C:\WINDOWS\system32;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.2+9
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.2
+	java.version.date = 2019-01-15
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.2+9
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final
+	jboss.host.name = laptop-1hge8u0a
+	jboss.modules.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = laptop-1hge8u0a
+	jboss.qualified.host.name = laptop-1hge8u0a
+	jboss.server.base.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone
+	jboss.server.config.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\log
+	jboss.server.name = laptop-1hge8u0a
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\modules
+	org.jboss.boot.log.file = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 27+
+	stderr.encoding = UTF-8
+	stdout.encoding = UTF-8
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-11.0.2\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = CH
+	user.dir = C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\bin
+	user.home = C:\Users\theof
+	user.language = fr
+	user.name = theof
+	user.script = 
+	user.timezone = Europe/Berlin
+	user.variant = 
+2024-05-08 09:56:36,554 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 27+ -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 
+2024-05-08 09:56:38,253 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2024-05-08 09:56:41,146 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 31) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2024-05-08 09:56:41,148 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 31) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2024-05-08 09:56:42,255 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 14) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2024-05-08 09:56:42,744 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2024-05-08 09:56:42,782 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.8.Final
+2024-05-08 09:56:42,799 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.8.Final
+2024-05-08 09:56:42,890 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2024-05-08 09:56:42,890 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2024-05-08 09:56:42,903 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2024-05-08 09:56:42,908 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2024-05-08 09:56:42,911 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2024-05-08 09:56:42,917 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2024-05-08 09:56:42,935 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2024-05-08 09:56:42,946 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2024-05-08 09:56:42,948 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2024-05-08 09:56:42,957 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2024-05-08 09:56:42,972 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2024-05-08 09:56:42,971 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2024-05-08 09:56:43,055 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2024-05-08 09:56:43,057 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2024-05-08 09:56:43,058 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2024-05-08 09:56:43,088 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2024-05-08 09:56:43,102 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.3.0.Final starting
+2024-05-08 09:56:43,124 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2024-05-08 09:56:43,174 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.hsqldb.jdbcDriver (version 2.7)
+2024-05-08 09:56:43,211 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY00023: KeyStore file 'C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2024-05-08 09:56:43,219 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = hsqldb
+2024-05-08 09:56:43,225 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY01084: KeyStore C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2024-05-08 09:56:43,277 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2024-05-08 09:56:44,119 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 32 IO threads with 256 max task threads based on your 16 available processors
+2024-05-08 09:56:44,123 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 256 (per class), which is derived from thread worker pool sizing.
+2024-05-08 09:56:44,123 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 64 (per class), which is derived from the number of CPUs on this host.
+2024-05-08 09:56:44,177 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.26.Final
+2024-05-08 09:56:44,229 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2024-05-08 09:56:44,230 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) Queuing requests.
+2024-05-08 09:56:44,232 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2024-05-08 09:56:44,262 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2024-05-08 09:56:44,264 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2024-05-08 09:56:44,344 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2024-05-08 09:56:44,429 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2024-05-08 09:56:44,429 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/labsDS]
+2024-05-08 09:56:48,975 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war")
+2024-05-08 09:56:48,975 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2024-05-08 09:56:48,994 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2024-05-08 09:56:49,002 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\deployments
+2024-05-08 09:56:50,502 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-3) 
+2024-05-08 09:56:52,105 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war
+2024-05-08 09:56:53,451 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 8.0.0.Final
+2024-05-08 09:56:53,558 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: '/TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT' for server 'default-server'
+2024-05-08 09:56:53,709 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'BankBean' in deployment unit 'deployment "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:app/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:module/BankBean!ch.hevs.bankservice.Bank
+	java:global/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:app/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT/BankBean
+	java:module/BankBean
+
+2024-05-08 09:56:53,802 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-5) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2024-05-08 09:56:53,816 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2024-05-08 09:56:53,820 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=LAPTOP-1HGE8U0A, jaeger.version=Java-1.6.0, ip=153.109.68.93}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2024-05-08 09:56:54,030 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 5.1.0 (Final)
+2024-05-08 09:56:55,005 WARN  [org.jboss.weld.Validator] (MSC service thread 1-7) WELD-001471: Interceptor method init defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.init(TransferBean.java:0)
+  StackTrace
+2024-05-08 09:56:55,081 WARN  [org.jboss.weld.Validator] (MSC service thread 1-4) WELD-001471: Interceptor method init defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.init(TransferBean.java:0)
+  StackTrace
+2024-05-08 09:56:55,243 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 82) Initialisation de Mojarra 4.0.0.SP01 pour le contexte «/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT»
+2024-05-08 09:56:55,811 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: '/TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT' for server 'default-server'
+2024-05-08 09:56:56,237 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP05-WEB-STATELESS-DAO-E-0.0.1-SNAPSHOT.war")
+2024-05-08 09:56:56,241 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP02-WEB-JSP-SERVLET-E-0.0.1-SNAPSHOT.war")
+2024-05-08 09:56:56,318 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-05-08 09:56:56,322 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.0.Final (WildFly Core 19.0.0.Final) started in 25365ms - Started 515 of 765 services (366 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-05-08 09:56:56,326 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-05-08 09:56:56,326 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2024-05-08 09:58:21,086 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\data\content\f4\a27255b8a28a8e88c875f1555ce6a39c348be3\content
+2024-05-08 09:58:21,091 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war")
+2024-05-08 09:58:26,251 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for bankPU
+2024-05-08 09:58:26,251 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for bankPU_unitTest
+2024-05-08 09:58:26,414 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war#bankPU
+2024-05-08 09:58:26,415 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war#bankPU_unitTest
+2024-05-08 09:58:26,552 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war
+2024-05-08 09:58:26,625 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'BankBean' in deployment unit 'deployment "TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:app/TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:module/BankBean!ch.hevs.bankservice.Bank
+	java:global/TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT/BankBean
+	java:app/TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT/BankBean
+	java:module/BankBean
+
+2024-05-08 09:58:26,711 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-8) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2024-05-08 09:58:26,713 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2024-05-08 09:58:26,714 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=LAPTOP-1HGE8U0A, jaeger.version=Java-1.6.0, ip=153.109.68.93}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2024-05-08 09:58:26,755 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war#bankPU
+2024-05-08 09:58:26,787 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war#bankPU_unitTest
+2024-05-08 09:58:27,298 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 34) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-05-08 09:58:27,928 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 34) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war#bankPU_unitTest'
+2024-05-08 09:58:27,928 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war#bankPU'
+2024-05-08 09:58:27,967 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 86) HHH000204: Processing PersistenceUnitInfo [name: bankPU]
+2024-05-08 09:58:27,967 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 34) HHH000204: Processing PersistenceUnitInfo [name: bankPU_unitTest]
+2024-05-08 09:58:28,088 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 86) HHH000412: Hibernate ORM core version 6.1.5.Final
+2024-05-08 09:58:28,403 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 34) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-05-08 09:58:28,403 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 86) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-05-08 09:58:28,590 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war#bankPU'
+2024-05-08 09:58:28,590 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 34) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war#bankPU_unitTest'
+2024-05-08 09:58:29,095 INFO  [SQL dialect] (ServerService Thread Pool -- 86) HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2024-05-08 09:58:29,154 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 86) Envers integration enabled? : true
+2024-05-08 09:58:29,182 INFO  [SQL dialect] (ServerService Thread Pool -- 34) HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2024-05-08 09:58:29,196 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 34) Envers integration enabled? : true
+2024-05-08 09:58:29,551 INFO  [org.hibernate.id.enhanced.TableGenerator] (ServerService Thread Pool -- 86) HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+2024-05-08 09:58:29,551 INFO  [org.hibernate.id.enhanced.TableGenerator] (ServerService Thread Pool -- 34) HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+2024-05-08 09:58:29,562 INFO  [org.hibernate.id.enhanced.TableGenerator] (ServerService Thread Pool -- 34) HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+2024-05-08 09:58:29,562 INFO  [org.hibernate.id.enhanced.TableGenerator] (ServerService Thread Pool -- 86) HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+2024-05-08 09:58:30,946 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 86) WFLYCLINF0002: Started TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war#bankPU.default-update-timestamps-region cache from hibernate container
+2024-05-08 09:58:31,037 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 86) WFLYCLINF0002: Started TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war#bankPU.default-query-results-region cache from hibernate container
+2024-05-08 09:58:31,932 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 34) GenerationTarget encountered exception accepting command : Error executing DDL "insert into hibernate_sequences(sequence_name, next_val) values ('default',0)" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "insert into hibernate_sequences(sequence_name, next_val) values ('default',0)" via JDBC Statement
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:502)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:486)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:363)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:176)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:128)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:254)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1336)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate@6.1.5.Final//org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:334)
+	at org.hibernate@6.1.5.Final//org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate@6.1.5.Final//org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.hibernate.jipijapa-hibernate6@27.0.0.Final//org.jboss.as.jpa.hibernate.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:45)
+	at org.jboss.as.jpa@27.0.0.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa@27.0.0.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa@27.0.0.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violation d'index unique ou clé primaire: "PUBLIC.PRIMARY_KEY_5 ON PUBLIC.HIBERNATE_SEQUENCES(SEQUENCE_NAME) VALUES ( /* 1 */ 'default' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_5 ON PUBLIC.HIBERNATE_SEQUENCES(SEQUENCE_NAME) VALUES ( /* 1 */ 'default' )"; SQL statement:
+insert into hibernate_sequences(sequence_name, next_val) values ('default',0) [23505-210]
+	at com.h2database.h2@2.1.210//org.h2.message.DbException.getJdbcSQLException(DbException.java:527)
+	at com.h2database.h2@2.1.210//org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at com.h2database.h2@2.1.210//org.h2.message.DbException.get(DbException.java:227)
+	at com.h2database.h2@2.1.210//org.h2.message.DbException.get(DbException.java:203)
+	at com.h2database.h2@2.1.210//org.h2.index.Index.getDuplicateKeyException(Index.java:525)
+	at com.h2database.h2@2.1.210//org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223)
+	at com.h2database.h2@2.1.210//org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184)
+	at com.h2database.h2@2.1.210//org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at com.h2database.h2@2.1.210//org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at com.h2database.h2@2.1.210//org.h2.command.dml.Insert.update(Insert.java:135)
+	at com.h2database.h2@2.1.210//org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:61)
+	at com.h2database.h2@2.1.210//org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at com.h2database.h2@2.1.210//org.h2.command.Command.executeUpdate(Command.java:252)
+	at com.h2database.h2@2.1.210//org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:252)
+	at com.h2database.h2@2.1.210//org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.9.Final//org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 25 more
+
+2024-05-08 09:58:32,196 WARN  [org.jboss.weld.Validator] (MSC service thread 1-4) WELD-001471: Interceptor method initialize defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.initialize(TransferBean.java:0)
+  StackTrace
+2024-05-08 09:58:32,249 WARN  [org.jboss.weld.Validator] (MSC service thread 1-6) WELD-001471: Interceptor method initialize defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.initialize(TransferBean.java:0)
+  StackTrace
+2024-05-08 09:58:32,324 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 86) Initialisation de Mojarra 4.0.0.SP01 pour le contexte «/TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT»
+2024-05-08 09:58:32,610 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: '/TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT' for server 'default-server'
+2024-05-08 09:58:32,693 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP12-WEB-EJB-PC-EPC-E-0.0.1-SNAPSHOT.war")
+2024-05-08 10:01:20,865 INFO  [stdout] (default task-1) ID source account called from transfer(): 4
+2024-05-08 10:01:20,866 INFO  [stdout] (default task-1) ID destination account called from transfer(): 5
+2024-05-08 10:56:47,112 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location C:\rootJakartaEE\rootJakartaEE\tools\wildfly-27.0.0.Final\standalone\data\content\44\102959010113d3f7ee0be9acadd26cd39a16dd\content
+2024-05-08 10:56:47,117 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war" (runtime-name: "TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war")
+2024-05-08 10:56:51,192 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for bankPU
+2024-05-08 10:56:51,192 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for bankPU_unitTest
+2024-05-08 10:56:51,300 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war#bankPU
+2024-05-08 10:56:51,300 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war#bankPU_unitTest
+2024-05-08 10:56:51,302 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war#bankPU_unitTest'
+2024-05-08 10:56:51,302 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 86) HHH000204: Processing PersistenceUnitInfo [name: bankPU_unitTest]
+2024-05-08 10:56:51,302 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war#bankPU'
+2024-05-08 10:56:51,303 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 89) HHH000204: Processing PersistenceUnitInfo [name: bankPU]
+2024-05-08 10:56:51,313 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 86) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-05-08 10:56:51,317 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 89) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-05-08 10:56:51,319 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war
+2024-05-08 10:56:51,372 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'BankBean' in deployment unit 'deployment "TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war"' are as follows:
+
+	java:global/TP13-WEB-SECURE-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:app/TP13-WEB-SECURE-E-0.0.1-SNAPSHOT/BankBean!ch.hevs.bankservice.Bank
+	java:module/BankBean!ch.hevs.bankservice.Bank
+	java:global/TP13-WEB-SECURE-E-0.0.1-SNAPSHOT/BankBean
+	java:app/TP13-WEB-SECURE-E-0.0.1-SNAPSHOT/BankBean
+	java:module/BankBean
+
+2024-05-08 10:56:51,432 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-7) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2024-05-08 10:56:51,434 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-7) No shutdown hook registered: Please call close() manually on application shutdown.
+2024-05-08 10:56:51,434 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-7) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=LAPTOP-1HGE8U0A, jaeger.version=Java-1.6.0, ip=153.109.68.93}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2024-05-08 10:56:51,467 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war#bankPU
+2024-05-08 10:56:51,468 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war#bankPU_unitTest
+2024-05-08 10:56:51,533 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war#bankPU_unitTest'
+2024-05-08 10:56:51,533 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 89) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war#bankPU'
+2024-05-08 10:56:51,540 INFO  [SQL dialect] (ServerService Thread Pool -- 86) HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2024-05-08 10:56:51,540 INFO  [SQL dialect] (ServerService Thread Pool -- 89) HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2024-05-08 10:56:51,545 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 86) Envers integration enabled? : true
+2024-05-08 10:56:51,545 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 89) Envers integration enabled? : true
+2024-05-08 10:56:51,562 INFO  [org.hibernate.id.enhanced.TableGenerator] (ServerService Thread Pool -- 86) HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+2024-05-08 10:56:51,562 INFO  [org.hibernate.id.enhanced.TableGenerator] (ServerService Thread Pool -- 89) HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+2024-05-08 10:56:51,562 INFO  [org.hibernate.id.enhanced.TableGenerator] (ServerService Thread Pool -- 86) HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+2024-05-08 10:56:51,563 INFO  [org.hibernate.id.enhanced.TableGenerator] (ServerService Thread Pool -- 89) HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+2024-05-08 10:56:51,593 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 89) WFLYCLINF0002: Started TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war#bankPU.default-update-timestamps-region cache from hibernate container
+2024-05-08 10:56:51,602 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 89) WFLYCLINF0002: Started TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war#bankPU.default-query-results-region cache from hibernate container
+2024-05-08 10:56:51,673 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 86) GenerationTarget encountered exception accepting command : Error executing DDL "insert into hibernate_sequences(sequence_name, next_val) values ('default',0)" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "insert into hibernate_sequences(sequence_name, next_val) values ('default',0)" via JDBC Statement
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:502)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:486)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:363)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:176)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:128)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:254)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1336)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate@6.1.5.Final//org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:334)
+	at org.hibernate@6.1.5.Final//org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate@6.1.5.Final//org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.hibernate.jipijapa-hibernate6@27.0.0.Final//org.jboss.as.jpa.hibernate.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:45)
+	at org.jboss.as.jpa@27.0.0.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:171)
+	at org.jboss.as.jpa@27.0.0.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:129)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:664)
+	at org.jboss.as.jpa@27.0.0.Final//org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:214)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violation d'index unique ou clé primaire: "PUBLIC.PRIMARY_KEY_5 ON PUBLIC.HIBERNATE_SEQUENCES(SEQUENCE_NAME) VALUES ( /* 1 */ 'default' )"
+Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_5 ON PUBLIC.HIBERNATE_SEQUENCES(SEQUENCE_NAME) VALUES ( /* 1 */ 'default' )"; SQL statement:
+insert into hibernate_sequences(sequence_name, next_val) values ('default',0) [23505-210]
+	at com.h2database.h2@2.1.210//org.h2.message.DbException.getJdbcSQLException(DbException.java:527)
+	at com.h2database.h2@2.1.210//org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at com.h2database.h2@2.1.210//org.h2.message.DbException.get(DbException.java:227)
+	at com.h2database.h2@2.1.210//org.h2.message.DbException.get(DbException.java:203)
+	at com.h2database.h2@2.1.210//org.h2.index.Index.getDuplicateKeyException(Index.java:525)
+	at com.h2database.h2@2.1.210//org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223)
+	at com.h2database.h2@2.1.210//org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184)
+	at com.h2database.h2@2.1.210//org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at com.h2database.h2@2.1.210//org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at com.h2database.h2@2.1.210//org.h2.command.dml.Insert.update(Insert.java:135)
+	at com.h2database.h2@2.1.210//org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:61)
+	at com.h2database.h2@2.1.210//org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at com.h2database.h2@2.1.210//org.h2.command.Command.executeUpdate(Command.java:252)
+	at com.h2database.h2@2.1.210//org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:252)
+	at com.h2database.h2@2.1.210//org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.9.Final//org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate@6.1.5.Final//org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 25 more
+
+2024-05-08 10:56:51,852 WARN  [org.jboss.weld.Validator] (MSC service thread 1-8) WELD-001471: Interceptor method initialize defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.initialize(TransferBean.java:0)
+  StackTrace
+2024-05-08 10:56:51,891 WARN  [org.jboss.weld.Validator] (MSC service thread 1-8) WELD-001471: Interceptor method initialize defined on class ch.hevs.managedbeans.TransferBean is not defined according to the specification. It should not throw javax.naming.NamingException, which is a checked exception.
+	at ch.hevs.managedbeans.TransferBean.initialize(TransferBean.java:0)
+  StackTrace
+2024-05-08 10:56:51,946 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 91) Initialisation de Mojarra 4.0.0.SP01 pour le contexte «/TP13-WEB-SECURE-E-0.0.1-SNAPSHOT»
+2024-05-08 10:56:52,260 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0021: Registered web context: '/TP13-WEB-SECURE-E-0.0.1-SNAPSHOT' for server 'default-server'
+2024-05-08 10:56:52,302 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war" (runtime-name : "TP13-WEB-SECURE-E-0.0.1-SNAPSHOT.war")
+2024-05-08 10:56:55,833 INFO  [stdout] (default task-1) ID source account called from transfer(): 4
+2024-05-08 10:56:55,833 INFO  [stdout] (default task-1) ID destination account called from transfer(): 5

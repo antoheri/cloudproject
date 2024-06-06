@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+  <display-name>TestSchoolPC_EPC</display-name>
+  <description></description>
+  <context-param>
+    <param-name>jakarta.faces.DEFAULT_SUFFIX</param-name>
+    <param-value>.jsp</param-value>
+    <param-value>.jsp</param-value>
+  </context-param>
+  <context-param>
+    <param-name>facelets.VIEW_MAPPINGS</param-name>
+    <param-value>*.xhtml</param-value>
+  </context-param>
+  <context-param>
+    <param-name>jakarta.faces.STATE_SAVING_METHOD</param-name>
+    <param-value>client</param-value>
+  </context-param>
+  <context-param>
+    <param-name>jakarta.servlet.jsp.jstl.fmt.localizationContext</param-name>
+    <param-value>resources.application</param-value>
+  </context-param>
+  <listener>
+    <listener-class>com.sun.faces.config.ConfigureListener</listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>Faces Servlet</servlet-name>
+    <servlet-class>jakarta.faces.webapp.FacesServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Faces Servlet</servlet-name>
+    <url-pattern>/faces/*</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Home.xhtml</welcome-file>
+  </welcome-file-list>
+  <env-entry>
+    <env-entry-name>jsf/ClientSideSecretKey</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>am9kZXRlcHV0b2hhY2tlcg==</env-entry-value>
+  </env-entry>
+  <display-name>HESMarks</display-name>
+
+  <!-- Security Constraints for Students -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Student Pages</web-resource-name>
+      <url-pattern>/faces/StudentDashboard.xhtml</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>student</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <!-- Security Constraints for Teachers -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Teacher Pages</web-resource-name>
+      <url-pattern>/faces/TeacherDashboard.xhtml</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>teacher</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <!-- General Security Constraint to restrict access -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Restricted Pages</web-resource-name>
+      <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>student</role-name>
+      <role-name>teacher</role-name>
+    </auth-constraint>
+  </security-constraint>
+  <login-config>
+    <auth-method>BASIC</auth-method>
+    <realm-name>Restricted Access!</realm-name>
+  </login-config>
+    <security-role>
+      <description>teacher</description>
+      <role-name>teacher</role-name>
+    </security-role>
+    <security-role>
+      <description>student</description>
+      <role-name>student</role-name>
+    </security-role>
+</web-app>

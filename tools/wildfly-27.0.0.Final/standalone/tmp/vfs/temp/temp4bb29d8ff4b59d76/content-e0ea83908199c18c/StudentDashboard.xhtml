@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="/WEB-INF/templates/BasicTemplate.xhtml">
+    <ui:define name="content">
+        <br></br>
+        <h:outputText value="Welcome back, #{transferBean.getStudentFirstname()}" style="font-weight: bold;font-size:1.8em;text-align: center; display: block;"/><br></br>
+        <h:outputText value="Your modules:"/><br></br>
+
+        <table style="width: 50%;border-collapse: collapse;">
+            <tr style="font-style: italic">
+                <td colspan="2" style="border-bottom: 1px solid black;">Module name</td>
+                <td colspan="2" style="border-bottom: 1px solid black;">Marks</td>
+                <td colspan="2" style="border-bottom: 1px solid black;"></td>
+            </tr>
+            <ui:repeat value="#{transferBean.moduleAverages}" var="entry">
+
+                <tr style="font-weight: bold;">
+                    <td colspan="2" >#{entry.key.title}</td>
+
+                    <td> #{entry.value}</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="font-style: italic">Subjects:</td>
+                </tr>
+                <ui:repeat value="#{transferBean.moduleSubjects[entry.key]}" var="subject">
+                    <tr>
+                        <td colspan="2">#{subject.name}</td>
+                        <td colspan="2">#{subject.schedule.startTime}</td>
+                        <td colspan="2">#{subject.schedule.endTime}</td>
+
+                        <ui:repeat value="#{transferBean.subjectResults[subject]}" var="result">
+
+                           <td colspan="1">#{result.mark}</td>
+                        </ui:repeat>
+                    </tr>
+                </ui:repeat>
+                <tr style="height: 20px;">
+                    <td colspan="5"></td>
+                </tr>
+            </ui:repeat>
+        </table>
+        <br></br>
+    </ui:define>
+</ui:composition>
+</html>

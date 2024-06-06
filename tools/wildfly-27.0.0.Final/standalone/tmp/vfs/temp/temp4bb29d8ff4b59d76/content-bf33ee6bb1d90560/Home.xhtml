@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="/WEB-INF/templates/BasicTemplate.xhtml">
+    <ui:define name="content">
+        <!-- event used to initialize the bean each time the page is loaded -->
+        <f:event type="preRenderView" listener="#{transferBean.initialize}" />
+
+        <div style="display: flex;justify-content: center;align-items: center;height: 50vh;flex-direction: column;">
+            <h:outputText value="Welcome to HES Marks" style="font-weight: bold;font-size:2em;"/><br></br>
+            <br></br>
+            <h:form>
+                <h:commandButton value="Go to my dashboard" action="#{transferBean.redirectToDashboard}" style="font-size:1.1em;color:white;margin-right: 10px;border-radius: 5px;height:50px;width:200px;border: none;background-color: darkslategrey"></h:commandButton>
+            </h:form>
+        </div>
+        <br></br>
+    </ui:define>
+</ui:composition>
+</html>
